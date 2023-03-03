@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(73, 168, 200);
+}
+
+div{
+    text-align: center;
+    padding-top: 200px;
+}
+
+h1 {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 37px;
+    letter-spacing: 0.2px;
+    word-spacing: -3px;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+p {
+    font-family: Futura,Trebuchet MS,Arial,sans-serif;
+}
+
+input {
+    margin-top: 5px;
+    width: 650px;
+    height: 25px;
+    border-style : none;
+    border-radius: 5px;
+}
+
+button {
+    background-color: rgb(113, 112, 112);
+    width: 40px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-style : none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.firstp {
+    color: yellow;
+}
+
+.secondp {
+    color: lightgreen
+}
+
+#thirdp {
+    color: rgb(2, 59, 2);
+}
+
+::placeholder {
+    color: rgb(142, 140, 140);
+    font-weight:bolder; 
+  }
